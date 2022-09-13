@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Calisma2 {
+public class Calisma2Odev {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver.exe");
         WebDriver driver =new ChromeDriver();
@@ -57,16 +57,6 @@ public class Calisma2 {
        Thread.sleep(3000);
         driver.findElement(By.xpath("//input[@name='commit']")).click();
        // e. Expected user id nin testtechproed@gmail.com oldugunu dogrulayin(verify).
-
-
-
-
-
-
-
-
-
-
 
         //driver.close();
     }
